@@ -15,9 +15,9 @@
         <result column="EMAIL" property="email" jdbcType="CHAR" />  
         <result column="PHONE" property="phone" jdbcType="CHAR" />  
         <result column="STATUS" property="status" jdbcType="CHAR" />  
-        <result column="BIRTH_DATE" property="birthDate" jdbcType="CHAR" />  
-        <result column="INSERT_DATE" property="insertDate" jdbcType="CHAR" />  
-        <result column="UPDATE_DATE" property="updateDate" jdbcType="CHAR" />  
+        <result column="BIRTH_DATE" property="birthDate" jdbcType="DATE" />  
+        <result column="INSERT_DATE" property="insertDate" jdbcType="DATE" />  
+        <result column="UPDATE_DATE" property="updateDate" jdbcType="DATE" />  
     </resultMap>  
     <!-- 查询单条记录 -->  
     <select id="selectUserByParam" parameterType="map" resultMap="user">  

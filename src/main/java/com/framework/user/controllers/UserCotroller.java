@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.domain.framework.User;
 import com.framework.user.services.UserService;
@@ -16,12 +17,12 @@ import com.framework.user.services.UserService;
 public class UserCotroller {
 	@Resource  
 	private UserService userService;  
-	
+	@RequestMapping("/login")
 	public String userLogin(HttpServletRequest request,Model model){
-		String username = request.getParameter("username");
+		String userName = request.getParameter("username");
 		String password = request.getParameter("password");
 		Map<String,Object> paramMap = new HashMap<String,Object>();
-		paramMap.put("username", username);
+		paramMap.put("userName", userName);
 		paramMap.put("password", password);
 		User user = userService.selectUserByParam(paramMap);
 		if(user!=null){

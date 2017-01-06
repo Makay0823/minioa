@@ -1,0 +1,126 @@
+/*赵继明编写 QQ：28145041*/
+/*首页顶部*/
+/*顶部*/
+#top{
+	height:68px;
+	width:100%;
+	}
+	
+		
+.logo{
+	display:inline-block;
+	width:112px;
+	height:28px;
+	background:url(../images/login_logo.jpg) no-repeat;
+	margin-top:25px;
+	margin-right:15px;
+	}
+.logo_modelname{ 
+	display:inline-block;
+	width:144px;
+	height:28px;
+	line-height:28px;
+	font-size:20px;
+	color:#808080;
+	border-left:1px solid #cbcbcb;
+	padding-left:15px;
+	margin-top:25px;
+	font-weight:bold
+	}
+				
+#top .left{
+	width:500px;
+	}
+#top_dh{
+	width:500px;
+	text-align:right
+	}
+#top_dh .dh{margin-top:25px;}	
+
+
+.banner_box{
+	width:100%;
+	height:440px;
+	position:relative
+	}
+.banner_enterprise{
+	width:100%;
+	height:460px;
+	overflow:hidden;
+	position:relative
+	}
+
+.banner_enterprise{
+	background:url(../images/login_bg.png) no-repeat;
+	background-position:center top;
+	background-size:cover;
+	}
+	
+
+
+.login_box{
+	background:url(../images/bg_gray.png);
+/*	background: rgba(0,0,0,.5);*/
+	width:320px;
+	height:250px;
+	position:absolute;
+	top:90px;
+	right:40px;
+	z-index:88;
+	}
+.login_box .title{ margin-left:35px; margin-top:20px;width:250px; margin-bottom:6px;}	
+.login_box .title h1{
+	font-size:20px;
+	color:#fff;
+	height:40px;
+	line-height:34px
+	}
+.login_box  a.want_login{font-size:14px; color:#00aaee; font-family:simsun; display:inline-block; line-height:34px;}	
+.input_field{margin-left:35px;width:250px; height:40px;  margin-bottom:12px}
+
+.input_field i{ display:inline-block; height:40px; width:40px;float:left;}
+.input_field1{margin-left:35px;width:250px; height:20px;  margin-bottom:13px; color:#fff}
+
+.input_field1 a{color:#fff; font-size:13px}
+.icon_login_Name{
+	background:url(../images/icon_login.png) no-repeat;
+	background-position:0 0;
+	}
+.icon_login_Pwd{
+	background:url(../images/icon_login.png) no-repeat;
+	background-position:0 -50px;
+	}
+.input_field input{border:0;width:170px;height:20px; line-height:20px; float:left; margin-top:10px; margin-left:5px;}	
+
+.index_login_btn{
+	display:block;
+	width:250px;
+	height:40px;
+	line-height:40px;
+	border:0;
+	background:url(../images/icon_login.png) no-repeat;
+	background-position:0 -133px;
+	color:#fff;
+	cursor:pointer;
+	outline:0;
+	font-size:16px;
+	font-family:"microsoft yahei";
+	margin-top:10px;
+	}
+.index_login_btn:hover{
+	background:url(../images/icon_login.png) no-repeat;
+	background-position:0 -193px;
+	}
+
+
+	
+/*版权信息样式 开始*/	
+#CPYright{
+	font-size:14px;
+	padding:10px 0;
+	color:#333333;
+	}
+#CPYright .box{ height:30px; line-height:30px;  text-align:center}	
+
+	
+

@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>${hello}</h1>
+<h1>返回值：${retCode}</h1>
+<h1>返回结果：${retMsg}</h1>
 </body>
 </html>

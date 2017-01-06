@@ -16,6 +16,7 @@ import java.util.Date;
 public class User {
 	private int id;
 	private String gender;
+	private String userName;
 	private String password;
 	private String verify;
 	private String nickName;
@@ -38,6 +39,13 @@ public class User {
 
 	public String getGender() {
 		return gender;
+	}
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 
 	public void setGender(String gender) {
