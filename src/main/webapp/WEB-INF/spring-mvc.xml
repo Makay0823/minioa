@@ -104,10 +104,10 @@
 	<aop:config>
 		<!--切入点-->
 		<aop:pointcut id="webController" expression="execution(public * com.web.*.*(..))"/>
-		<aop:pointcut id="managementController" expression="execution(public * com.web.management.*.*(..))"/>
+		<aop:pointcut id="frameworkController" expression="execution(public * com.framework.*.*(..))"/>
 		<!--在该切入点使用自定义拦截器-->
 		<aop:advisor pointcut-ref="webController" advice-ref="springMethodInterceptor"/>
-		<aop:advisor pointcut-ref="managementController" advice-ref="springMethodInterceptor"/>
+		<aop:advisor pointcut-ref="frameworkController" advice-ref="springMethodInterceptor"/>
 	</aop:config>
 	
 	<mvc:resources mapping="/styles/**" location="/styles/" cache-period="31536000"/>
